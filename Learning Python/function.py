@@ -1,7 +1,19 @@
-import math
+def greet():
+    print("Hi there")
+    print("Welcome abroad")
 
-print(round(2.9))
-print(round(-2.9))
-print (abs(-2.9))
 
-print(math.ceil(2.2))
+greet()
+
+print(greet())
+
+print("--------------")
+
+
+def greet(name):  # --> Function that carry out the task even return None
+    print(f"hi {name}")
+    # return "---"
+
+
+# Here check return value of the greet function (by default return value in python)
+print(greet("Divyansu"))
